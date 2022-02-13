@@ -11,7 +11,7 @@ public class Stack {
     }
 
     public void push(int data) {
-        if (currentTopIndex != 9) {
+        if (currentTopIndex < 10) {
             stack[currentTopIndex] = data;
             currentTopIndex++;
             System.out.println();
