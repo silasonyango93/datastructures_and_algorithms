@@ -2,20 +2,22 @@ package doubly_linked_list;
 
 public class DoublyLinkedList {
 
+    // https://www.youtube.com/watch?v=rUP7SVIiRac&ab_channel=CSDojo
+
     private Node headSentinel;
     private Node tailSentinel;
     private int listSize = 0;
 
     public DoublyLinkedList() {
-        headSentinel = new Node(null,null,null);
-        tailSentinel = new Node(headSentinel,null,null);
+        headSentinel = new Node(null, null, null);
+        tailSentinel = new Node(headSentinel, null, null);
         headSentinel.setNextNode(tailSentinel);
     }
 
 
     public void insertAtBeginningOfList(int data) {
         Node nodeSucceedingHeadSentinel = headSentinel.getNextNode();
-        Node newNode = new Node(headSentinel,nodeSucceedingHeadSentinel,data);
+        Node newNode = new Node(headSentinel, nodeSucceedingHeadSentinel, data);
         headSentinel.setNextNode(newNode);
         nodeSucceedingHeadSentinel.setPrevNode(newNode);
         listSize++;
@@ -24,7 +26,7 @@ public class DoublyLinkedList {
 
     public void insertAtEndOfList(int data) {
         Node nodePrecedingTailSentinel = tailSentinel.getPrevNode();
-        Node newNode = new Node(nodePrecedingTailSentinel,tailSentinel,data);
+        Node newNode = new Node(nodePrecedingTailSentinel, tailSentinel, data);
         tailSentinel.setPrevNode(newNode);
         nodePrecedingTailSentinel.setNextNode(newNode);
         listSize++;
@@ -33,7 +35,7 @@ public class DoublyLinkedList {
 
 
     public void insertBetweenTwoNodes(int data, Node precedingNode, Node succeedingNode) {
-        Node newNode = new Node(precedingNode,succeedingNode,data);
+        Node newNode = new Node(precedingNode, succeedingNode, data);
         precedingNode.setNextNode(newNode);
         succeedingNode.setPrevNode(newNode);
         listSize++;
@@ -64,7 +66,7 @@ public class DoublyLinkedList {
         succeedingNode.setPrevNode(precedingNode);
         nodeToBeDeleted.setPrevNode(null);
         nodeToBeDeleted.setNextNode(null);
-        listSize --;
+        listSize--;
     }
 
 
@@ -83,7 +85,7 @@ public class DoublyLinkedList {
             nodeToBeDeleted.setPrevNode(null);
             nodeToBeDeleted.setNextNode(null);
             nodeSucceedingNodeToBeDeleted.setPrevNode(headSentinel);
-            listSize --;
+            listSize--;
         }
     }
 
