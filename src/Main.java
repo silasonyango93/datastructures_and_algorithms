@@ -1,4 +1,6 @@
 import doubly_linked_list.DoublyLinkedList;
+import linear_search.LinearSearch;
+import queue.Queue;
 import stack.Stack;
 
 import java.util.ArrayList;
@@ -7,8 +9,30 @@ public class Main {
 
     public static void main(String[] args) {
 
-        runStack();
+        runLinearSearch();
 
+    }
+
+    public static void runLinearSearch() {
+        LinearSearch linearSearch = new LinearSearch();
+        linearSearch.search(89);
+    }
+
+
+    public static void runQueue() {
+        Queue queue = new Queue();
+        queue.dequeue();
+        queue.enqueue(5);
+        queue.enqueue(5);
+        queue.enqueue(5);
+        queue.enqueue(5);
+        queue.enqueue(5);
+        queue.enqueue(5);
+        queue.enqueue(5);
+        queue.printQueue();
+        queue.dequeue();
+        queue.dequeue();
+        queue.printQueue();
     }
 
 

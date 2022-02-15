@@ -1,8 +1,10 @@
 package stack;
 
+import java.util.Queue;
+
 public class Stack {
-    int[] stack = new int[10];
-    int currentTopIndex = 0;
+    private int[] stack = new int[10];
+    private int currentTopIndex = 0;
 
     public Stack() {
         for (int i = 0; i < stack.length; i++) {
@@ -41,7 +43,7 @@ public class Stack {
 
 
     public void printStack() {
-        for (int i = stack.length -1; i > -1; i--) {
+        for (int i = stack.length - 1; i > -1; i--) {
             System.out.println(stack[i]);
             System.out.println("ˆ");
             System.out.println("|");
