@@ -1,3 +1,4 @@
+import binary_search.BinarySearch;
 import doubly_linked_list.DoublyLinkedList;
 import linear_search.LinearSearch;
 import queue.Queue;
@@ -9,8 +10,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        runLinearSearch();
+        runBinarySearch();
 
+    }
+
+    public static void runBinarySearch() {
+        int [] dataSet = {1,2,6,8,12,56,78,92,126,348,379,406,437,550};
+        int key = 438;
+        BinarySearch binarySearch = new BinarySearch();
+        binarySearch.search(key,dataSet);
     }
 
     public static void runLinearSearch() {
