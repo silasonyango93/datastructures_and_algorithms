@@ -1,7 +1,8 @@
-import binary_search.BinarySearch;
+import searching.binary_search.BinarySearch;
 import doubly_linked_list.DoublyLinkedList;
-import linear_search.LinearSearch;
+import searching.linear_search.LinearSearch;
 import queue.Queue;
+import sorting.bubble_sort.BubbleSort;
 import stack.Stack;
 
 import java.util.ArrayList;
@@ -10,13 +11,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        runBinarySearch();
+        runBubbleSort();
 
+    }
+
+
+    public static void runBubbleSort() {
+        int [] dataSet = {67,126,67,8,348,406,78,6,550,12,18,550,437,67};
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.sort(dataSet);
     }
 
     public static void runBinarySearch() {
         int [] dataSet = {1,2,6,8,12,56,78,92,126,348,379,406,437,550};
-        int key = 438;
+        int key = 348;
         BinarySearch binarySearch = new BinarySearch();
         binarySearch.search(key,dataSet);
     }

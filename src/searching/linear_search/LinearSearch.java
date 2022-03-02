@@ -1,4 +1,4 @@
-package linear_search;
+package searching.linear_search;
 
 public class LinearSearch {
     private int [] list = new int[5];
