@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hashtable/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/HashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures_and_algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures_and_algorithms.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hashtable/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+            <state relative-caret-position="97">
+              <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
               <folding>
                 <element signature="e#1071#1072#0" expanded="true" />
                 <element signature="e#1108#1109#0" expanded="true" />
@@ -35,14 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/HashTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -73,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/sorting/bubble_sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/hashtable/HashTable.java" />
         <option value="$PROJECT_DIR$/src/tests/HashTableTest.java" />
+        <option value="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -129,6 +137,18 @@
               <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="binary_search_tree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="doubly_linked_list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -142,7 +162,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649838435472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649927715931" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -157,13 +177,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashTableTest">
+  <component name="RunManager" selected="JUnit.BinarySearchTree.insertNode_works_as_expected">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="datastructures_and_algorithms" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTree.insertNode_works_as_expected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="binary_search_tree" />
+      <option name="MAIN_CLASS_NAME" value="binary_search_tree.BinarySearchTree" />
+      <option name="METHOD_NAME" value="insertNode_works_as_expected" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,6 +237,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTree.insertNode_works_as_expected" />
         <item itemvalue="JUnit.HashTableTest" />
         <item itemvalue="JUnit.HashTableTest.is_prime_test" />
         <item itemvalue="Application.Main" />
@@ -221,15 +258,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashTableTest - 2022.04.13 at 08h 47m 12s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 17m 48s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 18m 17s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HashTableTest - 2022.04.13 at 11h 21m 52s.xml">
       <configuration name="HashTableTest" configurationId="JUnit" />
     </history-entry>
@@ -251,6 +279,15 @@
     <history-entry file="HashTableTest - 2022.04.13 at 11h 25m 39s.xml">
       <configuration name="HashTableTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HashTableTest - 2022.04.13 at 11h 33m 26s.xml">
+      <configuration name="HashTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 12h 13m 04s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 12h 14m 58s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -265,7 +302,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37044746" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37044746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56399584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,17 +365,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/doubly_linked_list/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -397,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hashtable/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+        <state relative-caret-position="97">
+          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
           <folding>
             <element signature="e#1071#1072#0" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />
@@ -406,13 +432,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/doubly_linked_list/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/HashTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
         </state>
       </provider>
     </entry>
