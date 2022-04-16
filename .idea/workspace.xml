@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            <state relative-caret-position="444">
+              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -162,7 +162,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649927715931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650094611356" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -258,34 +258,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 21m 52s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 22m 07s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 22m 17s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 22m 40s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 24m 15s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 25m 23s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 25m 39s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest - 2022.04.13 at 11h 33m 26s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 12h 13m 04s.xml">
       <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 12h 14m 58s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 24m 08s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 24m 24s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 35m 26s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 35m 49s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 41m 03s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 22h 04m 16s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.15 at 09h 22m 31s.xml">
+      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.15 at 11h 23m 54s.xml">
       <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -302,7 +302,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37044746" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37044746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56399584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="444">
+          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
         </state>
       </provider>
     </entry>

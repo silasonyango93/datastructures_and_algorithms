@@ -17,7 +17,7 @@ public class BinarySearchTree {
     }
 
 
-    public Node insertNode(Node node, int data) {
+    private Node insertNode(Node node, int data) {
         if (node == null) {
             return new Node(data);
         }
@@ -28,6 +28,41 @@ public class BinarySearchTree {
             node.rightChild = insertNode(node.rightChild, data);
         }
         return node;
+    }
+
+
+    private void inOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        inOrderTraversal(node.leftChild);
+        System.out.println(node.data);
+        inOrderTraversal(node.rightChild);
+
+    }
+
+
+    private void preOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        System.out.println(node.data);
+        preOrderTraversal(node.leftChild);
+        preOrderTraversal(node.rightChild);
+    }
+
+
+    private void postOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        postOrderTraversal(node.leftChild);
+        postOrderTraversal(node.rightChild);
+        System.out.println(node.data);
+
     }
 
     @Test
@@ -50,6 +85,8 @@ public class BinarySearchTree {
         assert 10 == rootNode.rightChild.data;
         assert 1 == rootNode.leftChild.leftChild.data;
         assert 6 == rootNode.leftChild.rightChild.data;
+
+        postOrderTraversal(rootNode);
     }
 
 }
