@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,35 +22,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hashtable/HashTable.java">
+        <entry file="file://$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-              <folding>
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/HashTableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+            <state relative-caret-position="-1005">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -81,6 +75,8 @@
         <option value="$PROJECT_DIR$/src/hashtable/HashTable.java" />
         <option value="$PROJECT_DIR$/src/tests/HashTableTest.java" />
         <option value="$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixGraph.java" />
+        <option value="$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixTest.java" />
       </list>
     </option>
   </component>
@@ -143,13 +139,14 @@
               <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="doubly_linked_list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="graph" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="graph" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="adjacency_matrix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -162,8 +159,11 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650094611356" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650186512265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,13 +177,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTree.insertNode_works_as_expected">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.AdjacencyMatrixTest">
+    <configuration name="AdjacencyMatrixGraph.testAdjacencyMatrixGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.adjacency_matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph.adjacency_matrix" />
+      <option name="MAIN_CLASS_NAME" value="graph.adjacency_matrix.AdjacencyMatrixGraph" />
+      <option name="METHOD_NAME" value="testAdjacencyMatrixGraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacencyMatrixGraph.testMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.adjacency_matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph.adjacency_matrix" />
+      <option name="MAIN_CLASS_NAME" value="graph.adjacency_matrix.AdjacencyMatrixGraph" />
+      <option name="METHOD_NAME" value="testMatrix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacencyMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.adjacency_matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph.adjacency_matrix" />
+      <option name="MAIN_CLASS_NAME" value="graph.adjacency_matrix.AdjacencyMatrixTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,28 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableTest.is_prime_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HashTableTest" />
-      <option name="METHOD_NAME" value="is_prime_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdjacencyMatrixTest" />
+        <item itemvalue="JUnit.AdjacencyMatrixGraph.testMatrix" />
+        <item itemvalue="JUnit.AdjacencyMatrixGraph.testAdjacencyMatrixGraph" />
         <item itemvalue="JUnit.BinarySearchTree.insertNode_works_as_expected" />
         <item itemvalue="JUnit.HashTableTest" />
-        <item itemvalue="JUnit.HashTableTest.is_prime_test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -258,35 +280,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 12h 13m 04s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 12h 14m 58s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 24m 08s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 24m 24s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 35m 26s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 35m 49s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 21h 41m 03s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.14 at 22h 04m 16s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.15 at 09h 22m 31s.xml">
-      <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTree_insertNode_works_as_expected - 2022.04.15 at 11h 23m 54s.xml">
       <configuration name="BinarySearchTree.insertNode_works_as_expected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixGraph_testAdjacencyMatrixGraph - 2022.04.16 at 15h 34m 32s.xml">
+      <configuration name="AdjacencyMatrixGraph.testAdjacencyMatrixGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixGraph_testAdjacencyMatrixGraph - 2022.04.16 at 15h 35m 18s.xml">
+      <configuration name="AdjacencyMatrixGraph.testAdjacencyMatrixGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixGraph_testMatrix - 2022.04.16 at 15h 37m 20s.xml">
+      <configuration name="AdjacencyMatrixGraph.testMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 39m 15s.xml">
+      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 39m 55s.xml">
+      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 40m 46s.xml">
+      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 41m 13s.xml">
+      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 41m 23s.xml">
+      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 42m 00s.xml">
+      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -302,7 +324,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37044746" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.276795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56399584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,17 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hashtable/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-          <folding>
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/doubly_linked_list/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -453,12 +464,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/hashtable/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        <state relative-caret-position="70">
+          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>datastructures_and_algorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
