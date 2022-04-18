@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/sorting/merge_sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/sorting/merge_sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +23,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state relative-caret-position="816">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixGraph.java" />
         <option value="$PROJECT_DIR$/src/graph/adjacency_matrix/AdjacencyMatrixTest.java" />
         <option value="$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TwoSum.java" />
       </list>
     </option>
   </component>
@@ -115,14 +121,7 @@
               <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="merge_sort" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +134,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650205493502" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650294543227" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -153,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSort.mergeSort_works_properly">
+  <component name="RunManager" selected="JUnit.TwoSum.test_twoSum">
     <configuration name="AdjacencyMatrixGraph.testAdjacencyMatrixGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -201,22 +200,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTree.insertNode_works_as_expected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binary_search_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="binary_search_tree" />
-      <option name="MAIN_CLASS_NAME" value="binary_search_tree.BinarySearchTree" />
-      <option name="METHOD_NAME" value="insertNode_works_as_expected" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MergeSort.mergeSort_works_properly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -233,13 +216,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum.test_twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.TwoSum" />
+      <option name="METHOD_NAME" value="test_twoSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoSum.test_twoSum" />
         <item itemvalue="JUnit.MergeSort.mergeSort_works_properly" />
         <item itemvalue="JUnit.AdjacencyMatrixTest" />
         <item itemvalue="JUnit.AdjacencyMatrixGraph.testMatrix" />
         <item itemvalue="JUnit.AdjacencyMatrixGraph.testAdjacencyMatrixGraph" />
-        <item itemvalue="JUnit.BinarySearchTree.insertNode_works_as_expected" />
       </list>
     </recent_temporary>
   </component>
@@ -257,34 +256,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdjacencyMatrixTest - 2022.04.16 at 15h 42m 00s.xml">
-      <configuration name="AdjacencyMatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 15h 29m 04s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 15h 29m 14s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 15h 31m 50s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 15h 32m 08s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 16h 20m 47s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 16h 22m 33s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 16h 25m 12s.xml">
-      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 16h 25m 36s.xml">
       <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 24m 32s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 26m 10s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 26m 25s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 28m 54s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 29m 19s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 30m 00s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 30m 32s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 31m 13s.xml">
+      <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSort_mergeSort_works_properly - 2022.04.17 at 17h 33m 48s.xml">
       <configuration name="MergeSort.mergeSort_works_properly" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -292,7 +291,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19717444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22665848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -359,12 +358,6 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -484,8 +477,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

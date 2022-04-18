@@ -60,6 +60,9 @@ public class MergeSort {
     public void mergeSort_works_properly() {
         int [] array = {13,12,11,10,9,8,7,6,5,4,3,2,1};
         array = mergeSort(array);
-        System.out.println();
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ->");
+        }
     }
 }
