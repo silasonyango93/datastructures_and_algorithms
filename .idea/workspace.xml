@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,12 +19,58 @@
     <option name="myElementSize" value="256" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/LongestPalindrome.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doubly_linked_list/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="646">
+              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding>
+                <element signature="e#2322#2323#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/LengthOfLongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,8 +107,9 @@
         <option value="$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/leetcode/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LenthOfLongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/LengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/LengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java" />
       </list>
     </option>
   </component>
@@ -76,6 +123,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="datastructures_and_algorithms" type="58d84e3e:PackageViewProjectNode" />
+              <item name="datastructures_and_algorithms" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,17 +145,6 @@
               <item name="datastructures_and_algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructures_and_algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="datastructures_and_algorithms" type="58d84e3e:PackageViewProjectNode" />
-              <item name="datastructures_and_algorithms" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -121,6 +168,25 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="smallest_positive_integer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="datastructures_and_algorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="datastructures_and_algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="merge_sort" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -132,7 +198,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650388869890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650794054999" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -150,23 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AdjacencyMatrixGraph.testMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.adjacency_matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="graph.adjacency_matrix" />
-      <option name="MAIN_CLASS_NAME" value="graph.adjacency_matrix.AdjacencyMatrixGraph" />
-      <option name="METHOD_NAME" value="testMatrix" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SmallestPositiveInteger.test_solution">
     <configuration name="AdjacencyMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -214,6 +264,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmallestPositiveInteger.test_solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smallest_positive_integer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smallest_positive_integer" />
+      <option name="MAIN_CLASS_NAME" value="smallest_positive_integer.SmallestPositiveInteger" />
+      <option name="METHOD_NAME" value="test_solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum.test_twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -232,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmallestPositiveInteger.test_solution" />
         <item itemvalue="JUnit.LengthOfLongestSubstring.test_longestSubString" />
         <item itemvalue="JUnit.TwoSum.test_twoSum" />
         <item itemvalue="JUnit.MergeSort.mergeSort_works_properly" />
         <item itemvalue="JUnit.AdjacencyMatrixTest" />
-        <item itemvalue="JUnit.AdjacencyMatrixGraph.testMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -254,42 +320,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 15m 51s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 32m 02s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 18m 39s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 35m 52s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 20m 17s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 41m 16s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 20m 53s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 43m 28s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 21m 58s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 43m 43s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 29m 51s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 44m 55s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.18 at 22h 43m 41s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 45m 17s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LenthOfLongestSubstring_test_longestSubString - 2022.04.19 at 10h 26m 46s.xml">
-      <configuration name="LenthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 45m 44s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring_test_longestSubString - 2022.04.19 at 10h 48m 56s.xml">
-      <configuration name="LengthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 46m 35s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring_test_longestSubString - 2022.04.19 at 11h 33m 03s.xml">
-      <configuration name="LengthOfLongestSubstring.test_longestSubString" configurationId="JUnit" />
+    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 47m 04s.xml">
+      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22665848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17076167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -357,6 +423,24 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -417,17 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doubly_linked_list/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/HashTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -442,13 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -473,27 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/LengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="833">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -502,8 +551,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="884">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doubly_linked_list/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search_tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/merge_sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/LengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smallest_positive_integer/SmallestPositiveInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
