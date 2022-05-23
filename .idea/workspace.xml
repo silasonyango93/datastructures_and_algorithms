@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ScrambledStringSubset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/WordSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +21,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/ContainsDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/ScrambledStringSubset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/leetcode/CharacterBoard.java" />
         <option value="$PROJECT_DIR$/src/leetcode/WordSearch.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/ScrambledStringSubset.java" />
       </list>
     </option>
   </component>
@@ -195,7 +221,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653343366459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653348003539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -213,22 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmallestPositiveInteger.test_solution">
-    <configuration name="AdjacencyMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.adjacency_matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="graph.adjacency_matrix" />
-      <option name="MAIN_CLASS_NAME" value="graph.adjacency_matrix.AdjacencyMatrixTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ScrambledStringSubset.test_IsASubSet">
     <configuration name="LengthOfLongestSubstring.test_longestSubString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -256,6 +267,22 @@
       <option name="PACKAGE_NAME" value="sorting.merge_sort" />
       <option name="MAIN_CLASS_NAME" value="sorting.merge_sort.MergeSort" />
       <option name="METHOD_NAME" value="mergeSort_works_properly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrambledStringSubset.test_IsASubSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.ScrambledStringSubset" />
+      <option name="METHOD_NAME" value="test_IsASubSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScrambledStringSubset.test_IsASubSet" />
         <item itemvalue="JUnit.SmallestPositiveInteger.test_solution" />
         <item itemvalue="JUnit.LengthOfLongestSubstring.test_longestSubString" />
         <item itemvalue="JUnit.TwoSum.test_twoSum" />
         <item itemvalue="JUnit.MergeSort.mergeSort_works_properly" />
-        <item itemvalue="JUnit.AdjacencyMatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,9 +344,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 32m 02s.xml">
-      <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 35m 52s.xml">
       <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
@@ -347,12 +371,15 @@
     <history-entry file="SmallestPositiveInteger_test_solution - 2022.04.24 at 12h 47m 04s.xml">
       <configuration name="SmallestPositiveInteger.test_solution" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ScrambledStringSubset_test_IsASubSet - 2022.05.24 at 02h 20m 09s.xml">
+      <configuration name="ScrambledStringSubset.test_IsASubSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17076167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17076167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -361,12 +388,12 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.276795" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.276795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56399584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34199584" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34131113" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Usages" order="10" />
@@ -611,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/IsAnagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -696,8 +713,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ContainsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ScrambledStringSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
