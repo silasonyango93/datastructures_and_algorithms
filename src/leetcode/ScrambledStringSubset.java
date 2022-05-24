@@ -12,6 +12,15 @@ import java.util.HashMap;
 public class ScrambledStringSubset {
 
     public boolean isASubSet(String scrambledString, String word) {
+
+        if (scrambledString == null || scrambledString.isEmpty() || word == null || word.isEmpty() ) {
+            return false;
+        }
+
+        if (word.length() > scrambledString.length()) {
+            return false;
+        }
+
         HashMap<Character, Integer> map = new HashMap<>();
 
         for (int i = 0; i < word.length(); i++) {
