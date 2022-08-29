@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="" />
+    <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/turing/CountElements.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +153,23 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MissingAndDuplicateNumber.test">
+  <component name="RunManager" selected="JUnit.CountElements.test">
+    <configuration name="CountElements.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="turing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="turing" />
+      <option name="MAIN_CLASS_NAME" value="turing.CountElements" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LengthOfLongestSubstring.test_longestSubString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -216,29 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum.test_twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.TwoSum" />
-      <option name="METHOD_NAME" value="test_twoSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountElements.test" />
         <item itemvalue="JUnit.MissingAndDuplicateNumber.test" />
         <item itemvalue="JUnit.ScrambledStringSubset.test_IsASubSet" />
         <item itemvalue="JUnit.SmallestPositiveInteger.test_solution" />
         <item itemvalue="JUnit.LengthOfLongestSubstring.test_longestSubString" />
-        <item itemvalue="JUnit.TwoSum.test_twoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +258,7 @@
       <workItem from="1660650692240" duration="4850000" />
       <workItem from="1660818474990" duration="964000" />
       <workItem from="1661507993780" duration="1103000" />
-      <workItem from="1661778219664" duration="1303000" />
+      <workItem from="1661778219664" duration="1740000" />
     </task>
     <servers />
   </component>
