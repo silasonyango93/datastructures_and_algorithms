@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class BinarySearchTree {
 
-    private static class Node {
+    public static class Node {
         int data;
         Node leftChild;
         Node rightChild;
@@ -17,7 +17,7 @@ public class BinarySearchTree {
     }
 
 
-    private Node insertNode(Node node, int data) {
+    public Node insertNode(Node node, int data) {
         if (node == null) {
             return new Node(data);
         }
