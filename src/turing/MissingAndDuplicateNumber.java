@@ -33,7 +33,7 @@ public class MissingAndDuplicateNumber {
 
     @Test
     public void test() {
-        int[] returnedArray = returnDuplicateAndMissingNumber(new int[]{1, 2, 3, 4, 3});
         assert Arrays.equals(new int[]{3, 5}, returnDuplicateAndMissingNumber(new int[]{1, 2, 3, 4, 3}));
+        assert Arrays.equals(new int[]{2, 3}, returnDuplicateAndMissingNumber(new int[]{1, 2, 2}));
     }
 }
