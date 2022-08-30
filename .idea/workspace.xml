@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/turing/MostRepeatingAlphabetCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/turing/TownJudge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/BaseballGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/MissingRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/SpecialInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/CountElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/CountElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/MissingAndDuplicateNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/MissingAndDuplicateNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turing/MissingAndDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turing/MissingAndDuplicateNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +156,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MostRepeatingAlphabetCharacter.test">
+  <component name="RunManager" selected="JUnit.TownJudge.townJudgeFirstPositive">
     <configuration name="MostRepeatingAlphabetCharacter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -191,6 +189,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TownJudge.townJudgeFirstPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="turing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="turing" />
+      <option name="MAIN_CLASS_NAME" value="turing.TownJudge" />
+      <option name="METHOD_NAME" value="townJudgeFirstPositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TownJudge.townJudgeFourthPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -202,22 +216,6 @@
       <option name="PACKAGE_NAME" value="turing" />
       <option name="MAIN_CLASS_NAME" value="turing.TownJudge" />
       <option name="METHOD_NAME" value="townJudgeFourthPositive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TownJudge.townJudgeSecondPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="turing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="turing" />
-      <option name="MAIN_CLASS_NAME" value="turing.TownJudge" />
-      <option name="METHOD_NAME" value="townJudgeSecondPositive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -241,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TownJudge.townJudgeFirstPositive" />
         <item itemvalue="JUnit.MostRepeatingAlphabetCharacter.test" />
         <item itemvalue="JUnit.TownJudge.townJudgeFifthPositive" />
         <item itemvalue="JUnit.TownJudge.townJudgeFourthPositive" />
         <item itemvalue="JUnit.TownJudge.townJudgeThirdPositive" />
-        <item itemvalue="JUnit.TownJudge.townJudgeSecondPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +261,7 @@
       <workItem from="1660650692240" duration="4850000" />
       <workItem from="1660818474990" duration="964000" />
       <workItem from="1661507993780" duration="1103000" />
-      <workItem from="1661778219664" duration="8514000" />
+      <workItem from="1661778219664" duration="11847000" />
     </task>
     <servers />
   </component>
@@ -381,11 +379,6 @@
           <url>file://$PROJECT_DIR$/src/searching/binary_search/BinarySearch.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/turing/MostRepeatingAlphabetCharacter.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
