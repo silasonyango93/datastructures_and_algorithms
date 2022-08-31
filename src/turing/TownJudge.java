@@ -47,34 +47,13 @@ trust[i][0] != trust[i][1]
 
 public class TownJudge {
     public static int findJudge(int N, int[][] trust) {
-        if (trust.length == 0) return 1;
-        /**
-         * Simple parents tracker
-         * */
-        int[] parents = new int[N + 1];
-        for (int i = 1; i < N + 1; i++) {
-            parents[i] = i;
+        int[] count = new int[N+1];
+        for (int[] t : trust) {
+            count[t[0]]--;
+            count[t[1]]++;
         }
-        /**
-         * Extracting the possible town judge
-         * */
-        HashMap<Integer, List<Integer>> map = new HashMap<>();
-        for (int[] data : trust) {
-            int a = data[0];
-            int b = data[1];
-            parents[a] = b;
-            map.computeIfAbsent(b, val -> new ArrayList<>()).add(a);
-        }
-
-        Iterator it = map.entrySet().iterator();
-        while (it.hasNext()) {
-            Map.Entry e = (Map.Entry) it.next();
-            ArrayList<Integer> members = (ArrayList<Integer>) e.getValue();
-            if (members.size() == N - 1) { //all the citizen except the judge
-                int key = (int) e.getKey();
-                if (parents[key] != key) return -1;// if judge trust someone else
-                return (int) e.getKey();
-            }
+        for (int i = 1; i <=N; i++) {
+            if (count[i] == N-1) return i;
         }
         return -1;
     }
@@ -106,6 +85,12 @@ public class TownJudge {
     @Test
     public void townJudgeFifthPositive() {
         int res = findJudge(4, new int[][]{{1, 2}, {1, 3}, {2, 1}, {2, 3}, {1, 4}, {4, 3}, {4, 1}});
+        assert 3 == res;
+    }
+
+    @Test
+    public void townJudgeFourthPositivef() {
+        int res = findJudge(2, new int[][]{});
         assert 3 == res;
     }
 }

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/turing/BaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/turing/MissingRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/turing/SpecialInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/turing/TownJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turing/TownJudge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,19 +142,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/silas.onyango/Desktop/personal-projects/datastructures_and_algorithms",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/silas.onyango/Desktop/personal-projects/datastructures_and_algorithms&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TownJudge.townJudgeFirstPositive">
+}</component>
+  <component name="RunManager" selected="JUnit.TownJudge">
     <configuration name="MostRepeatingAlphabetCharacter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -169,6 +167,21 @@
       <option name="MAIN_CLASS_NAME" value="turing.MostRepeatingAlphabetCharacter" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TownJudge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="turing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="turing" />
+      <option name="MAIN_CLASS_NAME" value="turing.TownJudge" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -205,7 +218,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TownJudge.townJudgeFourthPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TownJudge.townJudgeFourthPositivef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
@@ -215,23 +228,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="turing" />
       <option name="MAIN_CLASS_NAME" value="turing.TownJudge" />
-      <option name="METHOD_NAME" value="townJudgeFourthPositive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TownJudge.townJudgeThirdPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="turing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="turing" />
-      <option name="MAIN_CLASS_NAME" value="turing.TownJudge" />
-      <option name="METHOD_NAME" value="townJudgeThirdPositive" />
+      <option name="METHOD_NAME" value="townJudgeFourthPositivef" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TownJudge" />
+        <item itemvalue="JUnit.TownJudge.townJudgeFourthPositivef" />
+        <item itemvalue="JUnit.TownJudge.townJudgeFifthPositive" />
         <item itemvalue="JUnit.TownJudge.townJudgeFirstPositive" />
         <item itemvalue="JUnit.MostRepeatingAlphabetCharacter.test" />
-        <item itemvalue="JUnit.TownJudge.townJudgeFifthPositive" />
-        <item itemvalue="JUnit.TownJudge.townJudgeFourthPositive" />
-        <item itemvalue="JUnit.TownJudge.townJudgeThirdPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +258,9 @@
       <workItem from="1660650692240" duration="4850000" />
       <workItem from="1660818474990" duration="964000" />
       <workItem from="1661507993780" duration="1103000" />
-      <workItem from="1661778219664" duration="11847000" />
+      <workItem from="1661778219664" duration="13089000" />
+      <workItem from="1661887730074" duration="247000" />
+      <workItem from="1661953005777" duration="1002000" />
     </task>
     <servers />
   </component>
@@ -379,6 +378,11 @@
           <url>file://$PROJECT_DIR$/src/searching/binary_search/BinarySearch.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/turing/TownJudge.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
