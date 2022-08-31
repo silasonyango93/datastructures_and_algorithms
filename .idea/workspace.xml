@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/turing/LuckyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turing/TownJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turing/TownJudge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +260,7 @@
       <workItem from="1661507993780" duration="1103000" />
       <workItem from="1661778219664" duration="13089000" />
       <workItem from="1661887730074" duration="247000" />
-      <workItem from="1661953005777" duration="1002000" />
+      <workItem from="1661953005777" duration="1601000" />
     </task>
     <servers />
   </component>
