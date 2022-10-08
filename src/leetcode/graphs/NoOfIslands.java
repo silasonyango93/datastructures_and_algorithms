@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.graphs;
 
 public class NoOfIslands {
 

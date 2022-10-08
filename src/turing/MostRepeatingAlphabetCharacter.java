@@ -7,15 +7,9 @@ import java.util.Map;
 
 public class MostRepeatingAlphabetCharacter {
     public String solution(String input) {
-        StringBuilder formattedString = new StringBuilder();
-        for (int i = 0; i < input.length(); i++) {
-            if (Character.isLetter(input.charAt(i))) {
-                formattedString.append(input.charAt(i));
-            }
-        }
-        formattedString = new StringBuilder(formattedString.toString().replace(" ", ""));
 
-        input = formattedString.toString();
+        input = input.replaceAll("[-+.^:,]","");
+        input = input.replaceAll("\\d","");
 
         Map<Character, Integer> map = new HashMap<>();
 

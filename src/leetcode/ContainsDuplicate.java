@@ -12,8 +12,8 @@ public class ContainsDuplicate {
 
         Map<Integer,Integer> map = new HashMap<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            map.merge(nums[i],1,Integer::sum);
+        for (int num : nums) {
+            map.merge(num, 1, Integer::sum);
         }
 
         for (Integer currentKey : map.keySet()) {
