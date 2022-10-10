@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/binary_search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/turing/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/binary_search/Search2DMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/leetcode/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/leetcode/ContainsDuplicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/MostRepeatingAlphabetCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/MostRepeatingAlphabetCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dynamic_programming/ClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dynamic_programming/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/MaxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graphs/MaxAreaOfIsland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/NoOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graphs/NoOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graphs/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turing/MostRepeatingAlphabetCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turing/MostRepeatingAlphabetCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +156,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BinarySearch.testSolution">
+  <component name="RunManager" selected="JUnit.Search2DMatrix.testSolution">
     <configuration name="BinarySearch.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
@@ -214,17 +204,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostRepeatingAlphabetCharacter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Search2DMatrix.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turing.*" />
+          <option name="PATTERN" value="leetcode.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turing" />
-      <option name="MAIN_CLASS_NAME" value="turing.MostRepeatingAlphabetCharacter" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="leetcode.binary_search" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.binary_search.Search2DMatrix" />
+      <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -248,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Search2DMatrix.testSolution" />
         <item itemvalue="JUnit.BinarySearch.testSolution" />
         <item itemvalue="JUnit.TwoSum.test_twoSum" />
         <item itemvalue="JUnit.Exercise.test" />
         <item itemvalue="JUnit.MostRepeatingAlphabetCharacter" />
-        <item itemvalue="JUnit.MostRepeatingAlphabetCharacter.test" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +272,7 @@
       <workItem from="1664554216043" duration="2367000" />
       <workItem from="1664817033620" duration="1394000" />
       <workItem from="1664956380367" duration="4633000" />
-      <workItem from="1665134891605" duration="2312000" />
+      <workItem from="1665134891605" duration="6921000" />
     </task>
     <servers />
   </component>
