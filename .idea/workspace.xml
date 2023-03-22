@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/binary_search/Search2DMatrix.java" afterDir="false" />
+    <list default="true" id="07049728-c049-42f7-994c-04670e397990" name="Default Changelist" comment="T">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/BuyAndSellStockII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dynamic_programming/HouseRobberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/trees/InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/two_pointers/SmallestNumberInArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/BinaryTreeMaximumDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures_and_algorithms/turing/BinaryTreeMaximumDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/turing/BinaryTreeMaximumDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turing/BinaryTreeMaximumDepth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,54 +160,59 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/silas.onyango/Desktop/personal-projects/datastructures_and_algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Search2DMatrix.testSolution">
-    <configuration name="BinarySearch.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SmallestNumberInArea.testSolution">
+    <configuration name="BinaryTreeMaximumDepth.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.binary_search.*" />
+          <option name="PATTERN" value="turing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.binary_search" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.binary_search.BinarySearch" />
+      <option name="PACKAGE_NAME" value="turing" />
+      <option name="MAIN_CLASS_NAME" value="turing.BinaryTreeMaximumDepth" />
       <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuyAndSellStockII.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turing.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turing" />
-      <option name="MAIN_CLASS_NAME" value="turing.Exercise" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.BuyAndSellStockII" />
+      <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostRepeatingAlphabetCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HouseRobberII.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turing.*" />
+          <option name="PATTERN" value="leetcode.dynamic_programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turing" />
-      <option name="MAIN_CLASS_NAME" value="turing.MostRepeatingAlphabetCharacter" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="leetcode.dynamic_programming" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamic_programming.HouseRobberII" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,17 +233,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum.test_twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallestNumberInArea.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graphs.*" />
+          <option name="PATTERN" value="leetcode.two_pointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.TwoSum" />
-      <option name="METHOD_NAME" value="test_twoSum" />
+      <option name="PACKAGE_NAME" value="leetcode.two_pointers" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.two_pointers.SmallestNumberInArea" />
+      <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmallestNumberInArea.testSolution" />
+        <item itemvalue="JUnit.BinaryTreeMaximumDepth.testSolution" />
+        <item itemvalue="JUnit.HouseRobberII.testSolution" />
+        <item itemvalue="JUnit.BuyAndSellStockII.testSolution" />
         <item itemvalue="JUnit.Search2DMatrix.testSolution" />
-        <item itemvalue="JUnit.BinarySearch.testSolution" />
-        <item itemvalue="JUnit.TwoSum.test_twoSum" />
-        <item itemvalue="JUnit.Exercise.test" />
-        <item itemvalue="JUnit.MostRepeatingAlphabetCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +285,23 @@
       <workItem from="1664554216043" duration="2367000" />
       <workItem from="1664817033620" duration="1394000" />
       <workItem from="1664956380367" duration="4633000" />
-      <workItem from="1665134891605" duration="6921000" />
+      <workItem from="1665134891605" duration="7332000" />
+      <workItem from="1665573711282" duration="1782000" />
+      <workItem from="1665636335266" duration="366000" />
+      <workItem from="1665839198025" duration="1590000" />
+      <workItem from="1666091137158" duration="1834000" />
+      <workItem from="1666342959592" duration="946000" />
+      <workItem from="1666631297306" duration="1050000" />
+      <workItem from="1666784397939" duration="4128000" />
+      <workItem from="1666955151181" duration="1350000" />
+      <workItem from="1667976197187" duration="5000000" />
+      <workItem from="1668160355005" duration="664000" />
+      <workItem from="1668427614478" duration="1202000" />
+      <workItem from="1669642068131" duration="334000" />
+      <workItem from="1669642658821" duration="25000" />
+      <workItem from="1671467650766" duration="3000" />
+      <workItem from="1673097281438" duration="415000" />
+      <workItem from="1679481054111" duration="1281000" />
     </task>
     <servers />
   </component>
@@ -377,27 +406,57 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/searching/binary_search/BinarySearch.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/searching/binary_search/BinarySearch.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/searching/binary_search/BinarySearch.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/turing/TownJudge.java</url>
           <line>93</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/dynamic_programming/HouseRobberII.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/dynamic_programming/HouseRobberII.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/dynamic_programming/HouseRobberII.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/dynamic_programming/HouseRobberII.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/turing/BinaryTreeMaximumDepth.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/turing/BinaryTreeMaximumDepth.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/turing/BinaryTreeMaximumDepth.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/turing/BinaryTreeMaximumDepth.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="turing.BinaryTreeMaximumDepth$Node" memberName="left" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Queue.java">
